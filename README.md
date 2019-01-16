@@ -17,6 +17,6 @@ def my_method
 end
 ```
 ```javascript
-alert("hi there")
+alert("hi there");
 end
 ```
