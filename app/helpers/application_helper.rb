@@ -17,6 +17,6 @@ module ApplicationHelper
   end
 
   def copyright_generator
-    TeknukViewTool::Renderer.copyright('Zaid Iqbal', 'All rights reserved')
+    TeknukViewTool::Renderer.copyright 'Zaid Iqbal', 'All rights reserved'
   end
 end

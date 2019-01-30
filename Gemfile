@@ -61,4 +61,4 @@ gem 'devise', '~> 4.5'
 gem 'bootstrap', '~> 4.2.1'
 gem 'jquery-rails'
 
-gem 'teknuk_view_tool', git: 'https://github.com/Zaid5/teknuk_view_tool'
+# gem 'teknuk_view_tool'	

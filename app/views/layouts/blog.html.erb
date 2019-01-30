@@ -19,7 +19,11 @@
 
     <%= yield %>
 
-    <%= render "shared/nav",location: 'bottom' %>
+    <br>
+
+    <%= @copyright %>
+
+    <%= render "shared/nav",location: 'top' %>
 
     <%= source_helper("blog") %>
 
