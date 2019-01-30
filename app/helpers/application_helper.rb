@@ -15,4 +15,8 @@ module ApplicationHelper
       content_tag(:p, greeting, class: "source_greeting" )
     end
   end
+
+  def copyright_generator
+    TeknukViewTool::Renderer.copyright('Zaid Iqbal', 'All rights reserved')
+  end
 end
