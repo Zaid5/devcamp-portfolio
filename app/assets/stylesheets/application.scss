@@ -136,7 +136,7 @@ body {
   .masthead {
     position: fixed;
     top: 0;
-  }
+    }
   .mastfoot {
     position: fixed;
     bottom: 0;
@@ -160,3 +160,16 @@ body {
     width: 55rem;
   }
 }
+
+/*
+ * Custom Styles
+ */
+
+  .card-block {
+    color: black;
+    text-align: left;  
+  }
+
+  .auth-links a {
+    color: black;
+  }
