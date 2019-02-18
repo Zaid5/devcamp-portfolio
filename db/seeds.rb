@@ -51,6 +51,3 @@ puts "9 Portfolio items created"
 end
 
 puts "3 technologies created"
-
-
-
