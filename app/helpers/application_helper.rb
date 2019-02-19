@@ -30,7 +30,7 @@ module ApplicationHelper
       },      
       {
         url: about_me_path,
-        title: 'AboutMe'
+        title: 'About Me'
       },      
       {
         url: contact_path,
