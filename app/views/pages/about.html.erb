@@ -4,11 +4,66 @@
 		<hr>
 		<div class="row">
 			<div class="col-md-4">
-				<%= image_tag "profile.jpg", width: "300", alt: "profile picture", class: 'profile-img' %>
+				<%= image_tag "profile.jpg", width: "250", alt: "profile picture", class: 'profile-img' %>
 			</div>
 
 			<div class="col-md-8">
 				<p>Jr. Software Engineer at TekNuk Pakistan</p>
+				
+				<p>
+					<button 
+						class="btn btn-primary" 
+						type="button" 
+						data-toggle="collapse" 
+						data-target="#jobHistory"
+						aria-expanded="false"
+						aria-controls="jobHistory"
+						>
+							Job Histroy
+					</button>
+
+					<button 
+						class="btn btn-primary" 
+						type="button" 
+						data-toggle="collapse" 
+						data-target="#education"
+						aria-expanded="false"
+						aria-controls="education"
+						>
+							Education
+					</button>
+				</p>
+				<p>
+					<div class="collapse" id="jobHistory">
+						<div class="card card-block">
+							Job 1
+						</div>
+						<div class="card card-block">
+							Job 2
+						</div>
+						<div class="card card-block">
+							Job 3
+						</div>
+						<div class="card card-block">
+							Job 4	
+						</div>
+					</div>
+
+					<div class="collapse" id="education">
+						<div class="card card-block">
+							school 1
+						</div>
+						<div class="card card-block">
+							college 2
+						</div>
+						<div class="card card-block">
+							college 3
+						</div>
+						<div class="card card-block">
+							university 4	
+						</div>
+					</div>
+				</p>
 			</div>
 		</div>
 	</div>
